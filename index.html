@@ -1,13 +1,32 @@
----
-layout: presentation
----
+<h1>WEB</h1>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+</ul>
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+HTML
+Hypertext Markup Language (HTML) is the standard markup
+language for <strong>documents <u>designed</u></strong> to be displayed
+in a web browser. It can be assisted by technologies
+such as Cascading Style Sheets (CSS) and scripting languages
+such as JavaScript.
+Web browsers receive HTML documents from a web server or
+from local storage and render the documents
+into multimedia web pages. HTML describes the structure
+of a web page semantically and originally included cues
+for the appearance of the document.
+<p><p style="margin-top:45px;">
+HTML elements are the building blocks of HTML pages.
+With HTML constructs, images and other objects such
+as interactive forms may be embedded into the rendered page.
+HTML provides a means to create structured documents
+by denoting structural semantics for text such as headings,
+paragraphs, lists, links, quotes and other items.
+HTML elements are delineated by tags, written
+using angle brackets.
+</p>
+<p>
+  백만년만에 만들어본 테스트 웹사이트.
+  Familie Jung 잘해보자! :-)
+  </p>
